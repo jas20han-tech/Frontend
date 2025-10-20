@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Lol ;
+    src: url(./HelveticaNowDisplay-LightIta.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lol;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* #parent{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex; */
+
+
+    /* y axis */
+    /* align-items:flex-start; */
+    /* align-items: flex-end; */ 
+
+
+    /* align-items: center; */
+
+    /* x-axis  */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+/* } */
+
+/* #box1{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+} */
+
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#nav{
+    align-items: center;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 20px;
+}
+
+h4{
+    color: whitesmoke;
+}
+
+/* i{
+    color: red;
+} */
+
+
+
+
+#center{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-image:url(https://techmitra.in/wp-content/uploads/2025/09/Apple-iPhone-17-Pro-camera-close-up-250909-1024x576.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#center h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#center h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#link{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px;
+}
+
+#link button{
+    background-color: royalblue;
+    padding: 13px 7px;
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 50px;
+    font-weight: 700;
+}
