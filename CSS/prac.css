@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#parent{
+    width: 100%;
+    background-color: #222;
+}
+
+#child{
+    width: 100%;
+    height: 2000px;
+    background-color: beige;
+}
+
+#child2{
+    width:100%;
+    height: 2000px;
+    background-color: burlywood;
+}
+
+#sticky{
+    position: sticky;
+    top: 0;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}

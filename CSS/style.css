@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#Hero{
+    color: pink;
+    background-color: black;
+    font-size:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+#love{
+    color: black;
+    background-color: brown;
+    text-align: center;
+}
+
+h1{
+    color: aqua;
+    background-color: red;
+    text-align: center;
+}

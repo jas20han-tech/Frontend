@@ -1,0 +1,32 @@
+@font-face{
+    font-family:Fancy;
+    src:url(./Oups_Outline.otf)
+}
+
+@font-face {
+    font-family: not;
+    src: url(./Ndot-55.otf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+.abcd{
+    color: royalblue;
+}
+
+#hero{
+    background-color: lightcyan;
+}
+h1{
+    background-color: black;
+    color: brown;
+    font-family:not;
+}
