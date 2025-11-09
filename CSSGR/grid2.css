@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* h1{
+    font-size: 200px;
+    color: transparent;
+    background:linear-gradient(red,blue);
+    background-clip:text ;
+
+    background-image: url(https://imgs.search.brave.com/gK-wmuaM1AVcQO_NTaavkq1Ynv2jCvI0_PiK-TQcdAQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvY29sb3Jm/dWwtc2F0aXNmeWlu/Zy1sb29wLXBwcjJh/OGF2Nnc5aXo2cXku/Z2lm.gif);
+    background-size: cover;
+    background-clip: text;
+    text-align: center;
+} */
+
+/* h1{
+    font-size: 200px;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 3px white;
+} */
+
+
+
+
+#parent{
+    height: 400px;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+#parent::-webkit-scrollbar{
+    /* display: none; */
+    background-color: lightblue;
+    height: 5px;
+}
+#parent::-webkit-scrollbar-thumb{
+    background-color: aqua;
+}
+
+.child1{
+    height: 100%;
+    width: 300px;
+    background-color: khaki;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+
+.child1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}

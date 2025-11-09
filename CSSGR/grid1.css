@@ -2,14 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 html,body{
     height: 100%;
     width: 100%;
 }
 
-h1{
+/* h1{
     background-color: aqua;
     display: inline-block;
-    transform: translateY(80%);
+}
+h2{
+    background-color: aquamarine;
+    display: inline-block;
+} */
+
+
+
+#parent{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-top: 2px solid wheat;
+}
+
+.box:nth-child(2n){
+    background-color: aqua;
+}
+
+.box:nth-last-child(1){
+    background-color: yellowgreen;
+    border-bottom: 2px solid white;
 }
