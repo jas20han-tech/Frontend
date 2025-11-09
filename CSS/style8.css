@@ -67,6 +67,7 @@ html,body{
     background-color: white;
     border-radius: 10px;
     box-shadow: 30px 50px 50px black;
+    /* box-shadow: 30px 50px 50px black; — adds a black shadow 30px to the right, 50px down, with a 50px blur, creating a soft, deep shadow effect around the element. */
     display: flex;
     align-items: center;
     justify-content: space-evenly;

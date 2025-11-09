@@ -80,11 +80,13 @@ html,body{
     right: 0;
     top: 50%;
     position: fixed;
-    /* position: absolute; */
-     /* width: 100px; */
-    /* height: 400px; */
-    /* background-color: red;  */
-     /* } */
+    it will remain in same position
+    position: absolute; 
+    it will only stay in one position.
+      width: 100px; 
+     height: 400px; 
+     background-color: red;  
+      } */
 
 
 
@@ -108,6 +110,7 @@ html,body{
 } */
 
 /* position: sticky is a hybrid of relative and fixed positioning */
+/* sticky keeps the elemnt only in that division */
 /* #sticky{
     position: sticky;
     top: 0;

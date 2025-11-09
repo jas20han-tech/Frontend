@@ -1,34 +1,76 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-html,body{
-    height:100%;
-    width:100%;
+@font-face {
+  font-family: Helvetica;
+  src: url(./HelveticaNowDisplay-LightIta.ttf);
 }
 
-#parent{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+    height: 100%;
     width: 100%;
-    background-color: #222;
+    padding: 10px;
 }
 
-#child{
-    width: 100%;
-    height: 2000px;
-    background-color: beige;
+.card{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(185, 225, 240);
+    border: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+    position: relative;
 }
 
-#child2{
-    width:100%;
-    height: 2000px;
-    background-color: burlywood;
+.card img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform:translateY(-20%);
 }
 
-#sticky{
-    position: sticky;
-    top: 0;
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
+#bottom{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    bottom: -40%;
+    background: linear-gradient(transparent,skyblue);
+    transition: all ease 0.5s;
 }
+#bottom button{
+    border: none;
+    color: black;
+}
+#bottom h4{
+    color: black;
+}
+
+.card:hover #bottom{
+    bottom: 10%;
+}
+
+#bottom button:hover {
+  color: red;
+}
+
+
+
+
+
+
