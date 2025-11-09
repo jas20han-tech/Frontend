@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 70px 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+
+    grid-template-areas: "header header header"
+                         "section section section"
+                         "div1 div2 div3";
+}
+header{
+    background-color: darkblue;
+    grid-area: header;
+}
+section{
+    background-color: darkgray;
+    grid-area: section;
+}
+#div1{
+    background-color: magenta;
+    grid-area: div1;
+}
+#div2{
+    background-color: darkred;
+    grid-area: div2;
+}
+#div3{
+    background-color: darkgreen;
+    grid-area: div3;
+} */
+
+
+
+
+
+
+
+
+* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 70px 1fr 0.5fr 0.5fr;
+    grid-gap: 10px;
+    padding: 10px;
+
+    grid-template-areas: "header header header"
+                         "section section section"
+                         "left bottomup right"
+                         "left bottomdown right";
+}
+header{
+    background-color: darkblue;
+    grid-area: header;
+}
+section{
+    background-color: darkgray;
+    grid-area: section;
+}
+#left{
+    background-color: magenta;
+    grid-area: left;
+}
+#right{
+    background-color: darkred;
+    grid-area: right;
+}
+#bottomup{
+    background-color: darkgreen;
+    grid-area: bottomup;
+} 
+#bottomdown{
+    background-color: darkgreen;
+    grid-area: bottomdown;
+} 
